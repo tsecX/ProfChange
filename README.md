@@ -12,6 +12,17 @@ You will need terminator/tmux, i3 on Kali, feh.
 
 ### Currently the script will create a `profiles` directory in `~/`, but this can be changed.
 
+## Move Wallpaper to ~/.wallpaper
+```
+mv <location of wallpaper> ~/.wallpaper/
+```
+
+## Set Wallpaper
+* This will set your wallpaper, which then modifies ~/.fehbg config.
+```
+feh --bg-max ~/.wallpaper/<your_wallpaper>
+```
+
 ## Make Executable
 ```
 chmod +x prof_change.sh
